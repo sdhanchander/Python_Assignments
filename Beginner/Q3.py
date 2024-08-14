@@ -14,3 +14,6 @@ def calculate_grade(marks):
     else:
         return 'Grade F'
 
+# Example usage
+marks = [85, 90, 78, 92, 88]
+print(calculate_grade(marks))

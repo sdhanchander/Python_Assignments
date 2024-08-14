@@ -4,4 +4,5 @@ def factorial(n):
         result *= i
     return result
 
-
+# Example usage
+print(factorial(5))

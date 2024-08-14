@@ -8,3 +8,5 @@ def consultadd_python_training(n):
     else:
         return ""
 
+# Example usage
+print(consultadd_python_training(15))

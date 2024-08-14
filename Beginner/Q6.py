@@ -4,4 +4,5 @@ def is_perfect_number(num):
     divisors_sum = sum(i for i in range(1, num) if num % i == 0)
     return "Yes" if divisors_sum == num else "No"
 
-
+# Example usage
+print(is_perfect_number(6))
